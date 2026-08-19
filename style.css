@@ -98,9 +98,9 @@ h2 { margin-top: 12px; color: var(--text); font-size: clamp(32px,4vw,48px); line
     .section { padding: 76px 0; }.about { padding-top: 60px; padding-bottom: 60px; }.showcase { padding-top: 40px; padding-bottom: 60px; }.section-heading { align-items: flex-start; flex-direction: column; gap: 18px; }.showcase-grid { grid-template-columns: 1fr; }.technologies { padding-top: 40px; padding-bottom: 40px; }
 }
 @media (max-width: 480px) {
-    section[id] { scroll-margin-top: 126px; }.site-nav { padding: 12px 20px; }.brand { font-size: 12px; }.nav-links { gap: 10px 15px; }.nav-links a { font-size: 12px; }.nav-links .nav-demo { padding: 8px 12px; }
-    .hero { padding-right: 20px; padding-left: 20px; }.hero h1 { font-size: 51px; letter-spacing: -2px; }.hero-description { margin: 24px 0 28px; font-size: 16px; }.hero-highlights li { min-height: 74px; padding: 12px 10px; gap: 8px; font-size: 12px; }
-    .section { width: min(100% - 28px,1180px); }.about-copy { padding: 26px 22px; }.project-stats { gap: 0; }.stat { min-height: 94px; padding: 15px; }.stat strong { font-size: 16px; }.screen-image { padding: 8px; }
+    section[id] { scroll-margin-top: 126px; }.site-nav { padding: 12px 20px; }.brand { font-size: 12px; }.nav-links { gap: 8px 12px; }.nav-links a { padding: 3px 0; font-size: 11px; }.nav-links .nav-demo { padding: 8px 12px; }
+    .hero { padding-right: 20px; padding-left: 20px; }.hero h1 { font-size: 51px; letter-spacing: -2px; }.hero-description { margin: 24px 0 28px; font-size: 16px; }.hero-actions { gap: 10px; }.hero-actions .button { padding: 12px 18px; font-size: 12px; }.hero-highlights li { min-height: 74px; padding: 12px 10px; gap: 8px; font-size: 12px; }
+    .section { width: min(100% - 28px,1180px); }.about-copy { padding: 26px 22px; }.about h2 { font-size: 24px; letter-spacing: -.5px; }.project-stats { gap: 0; }.stat { min-height: 94px; padding: 15px; }.stat strong { font-size: 16px; }.screen-image { padding: 8px; }
     .technology-strip { grid-template-columns: repeat(2,minmax(0,1fr)); }.technology { min-height: 116px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }.technology:nth-child(2n) { border-right: 0; }.technology:nth-child(n+5) { border-bottom: 0; }
-    .site-footer { padding: 14px 20px; }
+    .site-footer { padding: 14px 20px; }.footer-meta { align-items: flex-start; flex-direction: column; gap: 2px; }
 }
